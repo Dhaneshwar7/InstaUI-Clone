@@ -108,10 +108,10 @@ printpost();
 function printpost(){
 var post=document.querySelector(".post");
 var arrpost =[
-    {dpimg:"https://ik.imagekit.io/sheryians/Sheryians_Logo_wFKd9VClG.png",idname:"Sheryians Coding School",postimg:"./sherypost.jpeg",caption:"More than a Coaching"},
-    {dpimg:"./delta.jpg",idname:"Delta mike",postimg:"./delta.jpg",caption:"Ye jo Instagram scroll kar rahe ho maine banaya hai -- he he he"},
-    {dpimg:"./harshbhaiyadp.jpg",idname:"Harsh JavaScriptor",postimg:"./harshbhaiya2.jpg",caption:"Hue Hue ,Hindi Samjho"},
-    {dpimg:"./saarthack2.jpg",idname:"Saarthack Sharma",postimg:"./sarthack.jpg",caption:"hum hi hai विश्वविजेता ke Admin"},
+    {dpimg:"https://ik.imagekit.io/sheryians/Sheryians_Logo_wFKd9VClG.png",idname:"Sheryians Coding School",postimg:"./images/sherypost.jpeg",caption:"More than a Coaching"},
+    {dpimg:"./images/delta.jpg",idname:"Delta mike",postimg:"./images/delta.jpg",caption:"Ye jo Instagram scroll kar rahe ho maine banaya hai -- he he he"},
+    {dpimg:"./images/harshbhaiyadp.jpg",idname:"Harsh JavaScriptor",postimg:"./images/harshbhaiya2.jpg",caption:"Hue Hue ,Hindi Samjho"},
+    {dpimg:"./images/saarthack2.jpg",idname:"Saarthack Sharma",postimg:"./images/sarthack.jpg",caption:"hum hi hai विश्वविजेता ke Admin"},
     {dpimg:"https://images.unsplash.com/photo-1610312435958-2150a6d31ce7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2819&q=80",idname:"Army_lover_7",postimg:"https://images.unsplash.com/photo-1514978317271-63c845d39beb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2723&q=80",caption:"No caption need"},
     {dpimg:"https://images.unsplash.com/photo-1541364983171-a8ba01e95cfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",idname:"Dog_lover",postimg:"https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2688&q=80",caption:"Sabse Vafadaar bolte kya"},
 ]
