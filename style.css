@@ -1,0 +1,402 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: #fff;
+   font-family: gilroy;
+}
+html,body{
+   height: 100%;
+   width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: gray; */
+     background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#instagram{
+    margin-left: 30px;
+    position: relative;
+    min-height: 95vh ;
+    width: 30%;
+    background-color: #0000004b;
+}
+#top{
+    width: 100%;
+    min-height: 9vh;
+    padding: 3px 7px 2px 7px;
+}
+.tnb{
+    width: 100%;
+    /* height: 30px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 5px;
+}
+#network>i{
+    font-size: 1.6vw;
+}
+.instalogo{
+    width: 100%;
+    /* height: 30px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo>i{
+    font-size: 1.7vw;
+}
+.instalogo img{
+    width: 9vw;
+}
+#msg i{
+    font-size:2.2vw;
+    margin-right: 10px;
+}
+/* ----------=----MIddle--------- */
+/* ----------=----MIddle--------- */
+/* ----------=----MIddle--------- */
+#middle{
+    width: 100%;
+    min-height: 76vh;
+    /* background-color: #dadada3f; */
+}
+#scroller{
+    width: 100%;
+    min-height: 11vh;
+    /* background-color: gray; */
+    padding: 0 5px;
+    display: flex;
+    align-items: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#scroller::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    border: 3px solid rgb(213, 15, 75);
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-right: 6px;
+}
+.story img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.story h1{
+    white-space: nowrap;
+    /* background-color: blue; */
+    font-size: 1vw;
+    color: #fff;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    bottom: -45%;
+    left: 50%;
+    flex-shrink: 0;
+    font-weight: 400;
+}
+#postslidder{
+    min-height: calc(76vh - 11vh);
+    width: 100%;
+    /* background-color: #dadada61; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+#postslidder::-webkit-scrollbar{
+    display: none;
+}
+.post{
+    position: relative;
+    width: 100%;
+    height: 63vh;
+    /* background-color: aquamarine; */
+}
+.ptop{
+    min-height: 7vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+#pid{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.pdp{
+    height: 50px;
+    width: 50px;
+    /* background-color: aqua; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+.pdp>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.pmain{
+    min-height: 52vh;
+    width: 100%;
+}
+.pmain>img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.pdown{
+    min-height: calc(63vh - 52vh);
+    width: 100%;
+    /* background-color: green; */
+    padding: 0px 6px;
+
+}
+.likes{
+    display: flex;
+    justify-content: space-between;
+}
+.pdown i{
+    font-size: 2vw;
+}
+.bookmark{
+    display: flex;
+}
+.caption{
+    display: flex;
+    align-items: flex-start;
+    gap: 3px;
+}
+.caption h4{
+    flex-shrink: 0;
+}
+.caption p{
+    font-family: Trispace;
+    font-weight: 100;
+}
+
+
+/* -------------Insta down part--------- */
+/* -------------Insta down part--------- */
+#down{
+    position: relative;
+    width: 100%;
+    min-height: 10vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+#down>i{
+    position: relative;
+    font-size: 2.5vw;
+}
+#down>img{
+    position: relative;
+    width: 2vw;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(154deg) brightness(107%) contrast(101%);
+}
+#down #dp{
+    width: 35px;
+    height: 35px;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+#iphoneline{
+    height: 6px;
+    width: 50%;;
+    bottom: 13%;
+    left: 25%;
+    position: absolute;
+    z-index: 9990;
+    background-color: #fff;
+    border-radius: 30px;
+}
+/* ----------Story open pagee---------- */
+/* ----------Story open pagee---------- */
+/* ----------Story open pagee---------- */
+/* ----------Story open pagee---------- */
+
+#fullscr{
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: #dadada;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    z-index: 999;
+}
+#stnb{
+    background-color: #000;
+    padding: 2px 3px;
+}
+#pline{
+    width: 100%;
+    height: 5px;
+    margin-top: 5px;
+    background-color: rgb(153, 147, 147);
+    margin-top: 6px;
+    overflow: hidden;
+    z-index: 100;
+}
+#growth{
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 40px;
+}
+#story_open_top{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    z-index: 50;
+    width: 100%;
+    height: 50px;
+    padding: 5px 10px;
+}
+.story-profile-dets{
+    height: 100%;
+    width: 85%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+#story_open_top>i{
+    font-size: 3vw;
+}
+#sdp{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+  
+}
+#sdp>img{
+    object-fit: cover ;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+#spdets{
+    width: 70%;
+    margin-left: 5px;
+    margin-top: 5px;
+    justify-content: flex-start;
+    align-items: center;
+}
+#sname{
+    display: flex;
+    align-items: center;
+}
+#comment{
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #000;
+}
+#comment>i{
+    font-size: 2.4vw;
+}
+#comment input{
+    outline: none;
+    padding: 10px 90px 10px 20px;
+    border-color: #fff;
+    box-direction: none;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: transparent;
+}
+#comment input::placeholder{
+    color: #fff;
+    font-size: 1.2vw;
+}
+#storyheart{
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+
+/* -----------Instagram click--------- */
+/* -----------Instagram click--------- */
+/* -----------Instagram click--------- */
+#instaclick{
+    height: 90px;
+    width: 160px;
+    position: absolute;
+    top: 10.5%;
+    left: 4%;
+    z-index: 999;
+    background-color: rgba(184, 178, 178, 0.347);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.following{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 3px;
+}
+.following>i{
+    font-size: 1.8vw;
+}
+.fav{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.fav>i{
+    font-size: 1.8vw;
+}
